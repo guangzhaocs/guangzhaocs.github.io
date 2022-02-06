@@ -1206,7 +1206,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4716a6;
+  background: #a4daff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2628,7 +2628,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("/images/bg.jpg");
+  background: url("https://s4.ax1x.com/2022/02/07/HMPFjH.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
