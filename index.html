@@ -278,7 +278,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-05-06 15:14:08" itemprop="dateModified" datetime="2022-05-06T15:14:08+03:00">2022-05-06</time>
+                <time title="Modified: 2022-05-06 15:22:57" itemprop="dateModified" datetime="2022-05-06T15:22:57+03:00">2022-05-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -304,7 +304,7 @@
 
       
           <p>This is a test… u</p>
-<p>$$\frac{\partial u}{\partial t}<br>&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p>
+<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/article/8afa06b1.html#more" rel="contents">
@@ -619,6 +619,14 @@
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
     MathJax.Hub.Typeset();
   }, window.MathJax);
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+       TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+       "HTML-CSS": {linebreaks: {automatic: true}},
+       SVG: {linebreaks: {automatic: true}}
+   });
 </script>
 
     

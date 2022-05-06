@@ -46,15 +46,15 @@
   };
 </script>
 
-  <meta name="description" content="This is a test… u $$\frac{\partial u}{\partial t}&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} +\frac{\partial^2 u}{\partial z^2}\right)$$">
+  <meta name="description" content="This is a test… u \begin{equation}\begin{aligned}    X \sim \mathcal{N}(\mu, \sigma^{2})\end{aligned}\end{equation}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Gaussian Process">
 <meta property="og:url" content="https://guangzhaocs.github.io/article/8afa06b1.html">
 <meta property="og:site_name" content="new Dimension()">
-<meta property="og:description" content="This is a test… u $$\frac{\partial u}{\partial t}&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} +\frac{\partial^2 u}{\partial z^2}\right)$$">
+<meta property="og:description" content="This is a test… u \begin{equation}\begin{aligned}    X \sim \mathcal{N}(\mu, \sigma^{2})\end{aligned}\end{equation}">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-02-06T19:08:19.000Z">
-<meta property="article:modified_time" content="2022-05-06T12:14:08.385Z">
+<meta property="article:modified_time" content="2022-05-06T12:22:57.243Z">
 <meta property="article:tag" content="EM Algorithm">
 <meta property="article:tag" content="Gaussian Process">
 <meta name="twitter:card" content="summary">
@@ -210,7 +210,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-05-06 15:14:08" itemprop="dateModified" datetime="2022-05-06T15:14:08+03:00">2022-05-06</time>
+                <time title="Modified: 2022-05-06 15:22:57" itemprop="dateModified" datetime="2022-05-06T15:22:57+03:00">2022-05-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -236,7 +236,7 @@
 
       
         <p>This is a test… u</p>
-<p>$$\frac{\partial u}{\partial t}<br>&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p>
+<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
 <span id="more"></span>
     </div>
 
@@ -477,6 +477,14 @@
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
     MathJax.Hub.Typeset();
   }, window.MathJax);
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+       TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+       "HTML-CSS": {linebreaks: {automatic: true}},
+       SVG: {linebreaks: {automatic: true}}
+   });
 </script>
 
     
