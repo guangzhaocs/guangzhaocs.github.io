@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Gaussian Process</title>
-    <url>/article/8afa06b1.html</url>
-    <content><![CDATA[<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-      </categories>
-      <tags>
-        <tag>EM Algorithm</tag>
-        <tag>Gaussian Process</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PhD Guidelines</title>
     <url>/article/b0ac1476.html</url>
     <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OKcRzV.png" style="zoom:60%" align=center />
@@ -34,6 +21,19 @@
       </categories>
       <tags>
         <tag>PhD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gaussian Process</title>
+    <url>/article/8afa06b1.html</url>
+    <content><![CDATA[<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+      </categories>
+      <tags>
+        <tag>EM Algorithm</tag>
+        <tag>Gaussian Process</tag>
       </tags>
   </entry>
   <entry>
