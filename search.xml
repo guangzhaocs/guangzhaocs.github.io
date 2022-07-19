@@ -46,8 +46,10 @@
 <h3 id="Gaussian-Mixture-Model"><a href="#Gaussian-Mixture-Model" class="headerlink" title="Gaussian Mixture Model"></a>Gaussian Mixture Model</h3><p>The Gaussian mixture can be interpreted in terms of discrete latent variables.</p>
 <p>\begin{equation}<br>\begin{aligned}<br>    p(\textbf{x}) &#x3D; \sum_{k&#x3D;1}^{K} \pi_{k} \mathcal{N}(\textbf{x} | \mu_{k}, \Sigma_{k})<br>\end{aligned}<br>\end{equation}</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
- <img src="https://s1.ax1x.com/2022/05/06/OKrZ1U.png" style="zoom:55%" align=center />
- 
+
+<img src="https://s1.ax1x.com/2022/05/06/OKrZ1U.png" style="zoom:55%">
+
+
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
