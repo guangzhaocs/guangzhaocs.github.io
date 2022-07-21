@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>PhD Guidelines</title>
+    <url>/article/b0ac1476.html</url>
+    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OKcRzV.png" style="zoom:60%" align=center />
+
+<span id="more"></span>
+
+<h3 id="Some-Links"><a href="#Some-Links" class="headerlink" title="Some Links"></a>Some Links</h3><ul>
+<li><p><a href="">The PhD grind (Philip Guo)</a></p>
+</li>
+<li><p><a href="http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf">How to do research (Bill Freeman)</a></p>
+</li>
+<li><p><a href="https://users.aalto.fi/~heinom10/guidelines.html">Guidelines for machine learning PhD students (Markus Heinonen)</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Learning Methods</category>
+      </categories>
+      <tags>
+        <tag>PhD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CUDA Programming Introduction (1)</title>
+    <url>/article/ee245046.html</url>
+    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/07/21/jLCX7V.png" style="zoom:90%" align=center />
+ 
+<span id="more"></span>
+
+<h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># compile</span></span><br><span class="line">nvcc example.cu -o example</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">nvcc -o example example.cu</span><br><span class="line"></span><br><span class="line"><span class="comment"># run </span></span><br><span class="line">./example</span><br><span class="line"></span><br><span class="line"><span class="comment"># show GPU activity</span></span><br><span class="line">nvprof ./example</span><br></pre></td></tr></table></figure>
+
+<p>(Slurm Commands)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">module load gcc</span><br><span class="line">module load cuda</span><br><span class="line">srun --mem=1G --time=00:10:00 --gres=gpu nvcc example.cu -o example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu ./example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu nvprof ./example</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Parallel Programming</category>
+      </categories>
+      <tags>
+        <tag>CUDA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Insight into EM Algorithm and Mixture Model</title>
     <url>/article/4a17b156.html</url>
     <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OK06c4.png" style="zoom:80%" align=center />
@@ -31,48 +73,6 @@
       <tags>
         <tag>EM Algorithm</tag>
         <tag>Gaussian Mixture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CUDA Programming Introduction (1)</title>
-    <url>/article/ee245046.html</url>
-    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/07/21/jLCX7V.png" style="zoom:90%" align=center />
- 
-<span id="more"></span>
-
-<h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># compile</span></span><br><span class="line">nvcc example.cu -o example</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">nvcc -o example example.cu</span><br><span class="line"></span><br><span class="line"><span class="comment"># run </span></span><br><span class="line">./example</span><br><span class="line"></span><br><span class="line"><span class="comment"># show GPU activity</span></span><br><span class="line">nvprof ./example</span><br></pre></td></tr></table></figure>
-
-<p>(Slurm Commands)</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">module load gcc</span><br><span class="line">module load cuda</span><br><span class="line">srun --mem=1G --time=00:10:00 --gres=gpu nvcc example.cu -o example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu ./example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu nvprof ./example</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Parallel Programming</category>
-      </categories>
-      <tags>
-        <tag>CUDA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PhD Guidelines</title>
-    <url>/article/b0ac1476.html</url>
-    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OKcRzV.png" style="zoom:60%" align=center />
-
-<span id="more"></span>
-
-<h3 id="Some-Links"><a href="#Some-Links" class="headerlink" title="Some Links"></a>Some Links</h3><ul>
-<li><p><a href="">The PhD grind (Philip Guo)</a></p>
-</li>
-<li><p><a href="http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf">How to do research (Bill Freeman)</a></p>
-</li>
-<li><p><a href="https://users.aalto.fi/~heinom10/guidelines.html">Guidelines for machine learning PhD students (Markus Heinonen)</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Learning Methods</category>
-      </categories>
-      <tags>
-        <tag>PhD</tag>
       </tags>
   </entry>
   <entry>
