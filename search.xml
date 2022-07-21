@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>PhD Guidelines</title>
-    <url>/article/b0ac1476.html</url>
-    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OKcRzV.png" style="zoom:60%" align=center />
-
-<span id="more"></span>
-
-<h3 id="Some-Links"><a href="#Some-Links" class="headerlink" title="Some Links"></a>Some Links</h3><ul>
-<li><p><a href="">The PhD grind (Philip Guo)</a></p>
-</li>
-<li><p><a href="http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf">How to do research (Bill Freeman)</a></p>
-</li>
-<li><p><a href="https://users.aalto.fi/~heinom10/guidelines.html">Guidelines for machine learning PhD students (Markus Heinonen)</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Learning Methods</category>
-      </categories>
-      <tags>
-        <tag>PhD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Gaussian Process</title>
-    <url>/article/8afa06b1.html</url>
-    <content><![CDATA[<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-      </categories>
-      <tags>
-        <tag>EM Algorithm</tag>
-        <tag>Gaussian Process</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Insight into EM Algorithm and Mixture Model</title>
     <url>/article/4a17b156.html</url>
     <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OK06c4.png" style="zoom:80%" align=center />
@@ -86,6 +50,42 @@
       </categories>
       <tags>
         <tag>CUDA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PhD Guidelines</title>
+    <url>/article/b0ac1476.html</url>
+    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OKcRzV.png" style="zoom:60%" align=center />
+
+<span id="more"></span>
+
+<h3 id="Some-Links"><a href="#Some-Links" class="headerlink" title="Some Links"></a>Some Links</h3><ul>
+<li><p><a href="">The PhD grind (Philip Guo)</a></p>
+</li>
+<li><p><a href="http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf">How to do research (Bill Freeman)</a></p>
+</li>
+<li><p><a href="https://users.aalto.fi/~heinom10/guidelines.html">Guidelines for machine learning PhD students (Markus Heinonen)</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Learning Methods</category>
+      </categories>
+      <tags>
+        <tag>PhD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gaussian Process</title>
+    <url>/article/8afa06b1.html</url>
+    <content><![CDATA[<p>\begin{equation}<br>\begin{aligned}<br>    X \sim \mathcal{N}(\mu, \sigma^{2})<br>\end{aligned}<br>\end{equation}</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+      </categories>
+      <tags>
+        <tag>EM Algorithm</tag>
+        <tag>Gaussian Process</tag>
       </tags>
   </entry>
 </search>
