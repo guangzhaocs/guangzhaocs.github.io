@@ -24,6 +24,25 @@
       </tags>
   </entry>
   <entry>
+    <title>CUDA Programming Introduction (1)</title>
+    <url>/article/ee245046.html</url>
+    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/07/21/jLCX7V.png" style="zoom:90%" align=center />
+ 
+<span id="more"></span>
+
+<h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># compile</span></span><br><span class="line">nvcc example.cu -o example</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">nvcc -o example example.cu</span><br><span class="line"></span><br><span class="line"><span class="comment"># run </span></span><br><span class="line">./example</span><br><span class="line"></span><br><span class="line"><span class="comment"># show GPU activity</span></span><br><span class="line">nvprof ./example</span><br></pre></td></tr></table></figure>
+
+<p>(Slurm Commands)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">module load gcc</span><br><span class="line">module load cuda</span><br><span class="line">srun --mem=1G --time=00:10:00 --gres=gpu nvcc example.cu -o example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu ./example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu nvprof ./example</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Parallel Programming</category>
+      </categories>
+      <tags>
+        <tag>CUDA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Insight into EM Algorithm and Mixture Model</title>
     <url>/article/4a17b156.html</url>
     <content><![CDATA[ <img src="https://s1.ax1x.com/2022/05/06/OK06c4.png" style="zoom:80%" align=center />
@@ -54,25 +73,6 @@
       <tags>
         <tag>EM Algorithm</tag>
         <tag>Gaussian Mixture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CUDA Programming Introduction (1)</title>
-    <url>/article/ee245046.html</url>
-    <content><![CDATA[ <img src="https://s1.ax1x.com/2022/07/21/jLCX7V.png" style="zoom:90%" align=center />
- 
-<span id="more"></span>
-
-<h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># compile</span></span><br><span class="line">nvcc example.cu -o example</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">nvcc -o example example.cu</span><br><span class="line"></span><br><span class="line"><span class="comment"># run </span></span><br><span class="line">./example</span><br><span class="line"></span><br><span class="line"><span class="comment"># show GPU activity</span></span><br><span class="line">nvprof ./example</span><br></pre></td></tr></table></figure>
-
-<p>(Slurm Commands)</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">module load gcc</span><br><span class="line">module load cuda</span><br><span class="line">srun --mem=1G --time=00:10:00 --gres=gpu nvcc example.cu -o example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu ./example</span><br><span class="line">srun --mem=10G --time=00:10:00 --gres=gpu nvprof ./example</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Parallel Programming</category>
-      </categories>
-      <tags>
-        <tag>CUDA</tag>
       </tags>
   </entry>
   <entry>
