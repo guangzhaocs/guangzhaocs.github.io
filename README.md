@@ -1,4 +1,4 @@
 # Projects Index
 
-- NanoBaseLib ([https://nanobaselib.github.io](https://nanobaselib.github.io))
+- NanoBaseLib (<a href="[http://example.com/](https://nanobaselib.github.io)" target="_blank">[Hello, world!](https://nanobaselib.github.io)</a>)
 
